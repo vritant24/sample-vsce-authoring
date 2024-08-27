@@ -1,0 +1,18 @@
+{
+  "id": "basicweb",
+  "terms": [
+    {
+      "term": "HTML",
+      "definition": "Hypertext Markup Language"
+    },
+    {
+      "term": "p5.js",
+      "definition": "A JavaScript library for creative coding"
+    },
+    {
+      "term": "web",
+      "definition": "Basic definition of web.",
+      "ignoreCase": true
+    }
+  ]
+}

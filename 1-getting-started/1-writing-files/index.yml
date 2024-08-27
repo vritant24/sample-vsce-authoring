@@ -1,0 +1,40 @@
+### YamlMime:Unit
+# This template is used when creating a unit in a course. A unit is a collection of lessons.
+metadata:
+  uid: 'wds-get-started-write-files' # Item unique identifier. Required.
+  title: 'Lesson 1 - Writing HTML CSS and JS' # A short title for the item (<10 words). Required.
+  locale: 'en-us' # Language of the content item. Required, defaults to en-us.
+  icon: '../../../media/icons/i_article.svg' # Provide a URL for an icon that will represent the item in search. Optional, must be a relative path pointing at an existing file.
+  publish-date: # Date the lesson can be released in production.
+  version: '0.1' # Captures the revision number of the lesson.
+  remix-author: # The current/new writer or sponsor of the item. For example, a teacher modifies the source curriculum (below this line) and are now the "new author" of the curriculum.
+  author: 'vritant24' # The primary writer or sponsor of the item. For example, Microsoft creates the source curriculum.
+  status: 'draft' # Publishing status of the lesson
+  objectives: | # Describe the course objectives using the "In this course, you will" statement. Markdown supported.
+    Upon completion of this lesson, you'll be able to:
+      - Write HTML, CSS, and JS
+  description: | # A short description of the lesson (<50 words).  Markdown supported.
+    Welcome to Visual Studio Code for Education, a platform designed specifically for students who are interested in exploring the world of coding. In this first lesson, you'll familiarize yourself with the key features of VS Code for Education and learn how to engage with the course. This includes understanding the layout and tools available in Visual Studio Code, completing quizzes and coding projects, and providing feedback on your experience.
+  level: 'beginner' # Describe the level of difficulty of the topic: beginner, intermediate, advanced, expert
+  prerequisites:
+    description: # List of text-based prerequisites, if any
+    recommended: # Array of UIDs that must be completed prior to accessing content.
+    hidden-before: # Array of UIDs that are required in order to see the current item.
+    locked-before: # Array of UIDs that are required in order to access the current item.
+  products: 'Visual Studio Code' # Comma-separated list of MS products referenced in the lesson
+  roles: 'student,developer,k-12 educator' # Relevant user role(s) (developer, data scientist, etc.)
+  xp: '25' # Points earned for completing the course
+  badge: getting-started-badge # A URL for a badge that will represent completion in a user profile. If blank, no badge will be awarded.
+lesson:
+  taxonomy: remembering # Using Bloom's Digital Taxonomy, the framework for understanding learning objectives, complexity and specificity.
+  pages: # Define the lessons connected to the unit. Must be an array of lesson metadata or relative links to unit YML files.
+    - 1-web-dev.yml
+    - 2-test-reflection.yml
+  duration: '20' # Total anticipated content time, in minutes
+standards:
+  csta:
+    educator: # Educator standards connected to the lesson. An array of standard IDs which will be displayed on the "About this Lesson" landing page, summarized on the "about this unit" landing page and "about this course" page.
+    student: # Student standards connected to the lesson. An array of standard IDs  which will be displayed on the "About this Lesson" landing page, summarized on the "about this unit" landing page and "about this course" page.
+  iste:
+    educator: # Future use case. Educator standards connected to the lesson. An array of standard IDs  which will be displayed on the "About this Lesson" landing page, summarized on the "about this unit" landing page and "about this course" page.
+    student: # Future use case. Student standards connected to the lesson. An array of standard IDs  which will be displayed on the "About this Lesson" landing page, summarized on the "about this unit" landing page and "about this course" page.
