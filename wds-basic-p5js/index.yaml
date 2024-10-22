@@ -1,0 +1,9 @@
+id: wds-basic-p5js
+title: Unit 1 - p5.js Basics
+description: |
+  Get started with creative JavaScript coding with p5.js
+objectives: |
+  Upon completion of this lesson, you'll be able to:
+    - Create a basic p5.js sketch
+lessons:
+  - wds-basic-p5js-setting-up/index.yaml

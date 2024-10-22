@@ -1,0 +1,16 @@
+id: wds-get-started-write-files
+title: Lesson 1 - Writing HTML CSS and JS
+duration: 20
+description: >
+  Welcome to Visual Studio Code for Education, a platform designed specifically
+  for students who are interested in exploring the world of coding. In this
+  first lesson, you'll familiarize yourself with the key features of VS Code for
+  Education and learn how to engage with the course. This includes understanding
+  the layout and tools available in Visual Studio Code, completing quizzes and
+  coding projects, and providing feedback on your experience.
+objectives: |
+  Upon completion of this lesson, you'll be able to:
+    - Write HTML, CSS, and JS
+lessonParts:
+  - wds-get-started-write-files-dev.yaml
+  - wds-get-started-write-files-reflection.yaml

@@ -1,0 +1,4 @@
+id: wds-basic-p5js-setting-up-script
+title: Setting up p5.js scripts
+content: |
+  [!include[](includes/2-script.md)]

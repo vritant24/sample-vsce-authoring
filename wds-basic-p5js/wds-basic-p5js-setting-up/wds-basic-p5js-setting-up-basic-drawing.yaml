@@ -1,0 +1,4 @@
+id: wds-basic-p5js-setting-up-basic-drawing
+title: Basic shape drawing functions.
+content: |
+  [!include[](includes/3-basic-drawing.md)]
