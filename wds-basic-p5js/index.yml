@@ -5,5 +5,3 @@ description: |
 objectives: |
   Upon completion of this lesson, you'll be able to:
     - Create a basic p5.js sketch
-lessons:
-  - wds-basic-p5js-setting-up/index.yaml
