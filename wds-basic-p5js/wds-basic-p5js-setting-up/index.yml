@@ -1,8 +1,0 @@
-id: wds-basic-p5js-setting-up
-title: Lesson 1 - Setting up p5.js
-duration: 20
-description: |
-  Get started with creative JavaScript coding with p5.js
-objectives: |
-  Upon completion of this lesson, you'll be able to:
-    - Create a basic HTML page to host a p5.js sketch

@@ -20,3 +20,9 @@ prerequisites: |
   - A school or company issued email account
   - Access to a device (computer or tablet) with an internet connection  
   - A student in grades 9-12 or over 13 years of age
+units:
+  - unit1/index.yml
+drive:
+  fileSystem:
+    - path: main.py
+      content: hello
