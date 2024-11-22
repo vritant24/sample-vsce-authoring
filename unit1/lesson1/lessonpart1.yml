@@ -1,5 +1,7 @@
 id: lessonpart1
 title: new
+content: |
+  # hello there
 showContent: true
 showEditor: false
 showTerminal: false
