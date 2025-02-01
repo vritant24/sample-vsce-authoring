@@ -1,4 +1,5 @@
+# yaml-language-server: $schema=https://vscodeedu.com/schema/course-v2.schema.json
 id: lesson1
 title: new
 lessonParts:
-  - lessonpart2.yml
+  - lessonpart3.yml
