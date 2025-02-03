@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://vscodeedu.com/schema/course-v2.schema.json
+id: lessonpart1
+title: and another one
+content: "# Enter your content here"
+showContent: true
+showEditor: false
+showTerminal: false
+showExplorer: false

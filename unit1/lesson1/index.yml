@@ -3,3 +3,4 @@ id: lesson1
 title: new
 lessonParts:
   - lessonpart3.yml
+  - lessonpart1.yml
