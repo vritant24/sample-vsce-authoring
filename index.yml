@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://vscodeedu.com/schema/course-v2.schema.json
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: web-dev-stub
 title: Course Title 1
 level: beginner
@@ -17,9 +17,13 @@ objectives: >
   - How to create a website using HTML, CSS, and JavaScript
 
   - How to use the P5.js library to create interactive web graphics
-prerequisites: |
+prerequisites: >
   - A school or company issued email account
+
   - Access to a device (computer or tablet) with an internet connection  
-  - A student in grades 9-12 or over 13 years of age
+
+  - A student in grades 9-12 or over 13 years of age dsf sdf sdfs df sdf sff sf
+  sdfs fs s
+cardImageUrl: https://vscodeedu.com/assets/course-cards/card6.png
 units:
   - unit1/index.yml

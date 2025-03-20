@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://vscodeedu.com/schema/course-v2.schema.json
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: another one
 duration: 341
@@ -353,7 +353,3 @@ content: >-
   *here be dragons*
 
   :::
-showContent: true
-showEditor: false
-showTerminal: false
-showExplorer: false
