@@ -1,6 +1,3 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: unit1
-title: new
-lessons:
-  - lesson1/index.yml
-  - lesson2/index.yml
+id: lesson2
+title: unit
