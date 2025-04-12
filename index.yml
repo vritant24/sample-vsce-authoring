@@ -24,6 +24,11 @@ prerequisites: >
 
   - A student in grades 9-12 or over 13 years of age dsf sdf sdfs df sdf sff sf
   sdfs fs s
-cardImageUrl: https://vscodeedu.com/assets/course-cards/card6.png
+cardImageUrl: https://ppe.vscodeedu.com/assets/course-cards/card9.png
+contacts:
+  - displayName: Contact
+    affiliation: None
+    email: None
+    homePageUrl: None
 units:
   - unit1/index.yml
