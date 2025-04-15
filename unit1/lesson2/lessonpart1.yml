@@ -1,5 +1,3 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: lesson2
-title: unit
-lessonParts:
-  - lessonpart1.yml
+id: lessonpart1
+title: Owls
