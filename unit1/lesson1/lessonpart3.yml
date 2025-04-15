@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
-title: another one
+title: Markdown Sample
 duration: 341
 content: >
   # h1 Heading 8-) 
