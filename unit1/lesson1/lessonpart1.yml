@@ -1,15 +1,12 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
-title: and another one
-content: |
-  # Enter your content here 
-
-  sdf 
-
-   sdf jsdflsdflsdl  jf
+title: Books
+content: >
+  ## Books
 
 
-
-
-
-  asda
+  Books are a valuable resource for learning and expanding knowledge. In the
+  context of software development, there are numerous books that cover a wide
+  range of topics, from programming languages and frameworks to software design
+  principles and best practices. Reading books can provide in-depth insights and
+  help reinforce concepts learned through practical experience.
