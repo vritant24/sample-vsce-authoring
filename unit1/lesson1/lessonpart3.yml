@@ -2,16 +2,21 @@
 id: lessonpart3
 title: another one
 duration: 341
-content: >-
+content: >
   # h1 Heading 8-)
+
 
   ## h2 Heading
 
+
   ### h3 Heading
+
 
   #### h4 Heading
 
+
   ##### h5 Heading
+
 
   ###### h6 Heading
 
@@ -19,14 +24,13 @@ content: >-
   ## Horizontal Rules
 
 
-  ___
-
-
-  ---
+  ***
 
 
   ***
 
+
+  ***
 
 
   ## Typographic replacements
@@ -47,7 +51,6 @@ content: >-
   "Smartypants, double quotes" and 'single quotes'
 
 
-
   ## Emphasis
 
 
@@ -66,17 +69,18 @@ content: >-
   ~~Strikethrough~~
 
 
-
   ## Blockquotes
-
 
 
   > Blockquotes can also be nested...
 
-  >> ...by using additional greater-than signs right next to each other...
+  >
+
+  > > ...by using additional greater-than signs right next to each other...
+
+  > >
 
   > > > ...or with spaces between arrows.
-
 
 
   ## Lists
@@ -85,16 +89,16 @@ content: >-
   Unordered
 
 
-  + Create a list by starting a line with \` +
-      \`, \` -
-      \`, or \` *
-          \`
-  + Sub-lists are made by indenting 2 spaces:
-    - Marker character change forces new list start:
+  * Create a list by starting a line with \` +
+    \`, \` -
+    \`, or \` \*
+    \`
+  * Sub-lists are made by indenting 2 spaces:
+    * Marker character change forces new list start:
       * Ac tristique libero volutpat at
-      + Facilisis in pretium nisl aliquet
-      - Nulla volutpat aliquam velit
-  + Very easy!
+      - Facilisis in pretium nisl aliquet
+      * Nulla volutpat aliquam velit
+  * Very easy!
 
 
   Ordered
@@ -102,24 +106,25 @@ content: >-
 
   1. Lorem ipsum dolor sit amet
 
+
   2. Consectetur adipiscing elit
+
 
   3. Integer molestie lorem at massa
 
 
+  4. You can use sequential numbers...
 
-  1. You can use sequential numbers...
 
-  1. ...or keep all the numbers as \`1.\`
+  5. ...or keep all the numbers as \`1.\`
 
 
   Start numbering with offset:
 
 
-  57. foo
+  1. foo
 
-  1. bar
-
+  2. bar
 
 
   ## Code
@@ -130,10 +135,18 @@ content: >-
 
   Indented code
 
-      // Some comments
-      line 1 of code
-      line 2 of code
-      line 3 of code
+
+  ```
+
+  // Some comments
+
+  line 1 of code
+
+  line 2 of code
+
+  line 3 of code
+
+  ```
 
 
   Block code "fences"
@@ -152,7 +165,9 @@ content: >-
   \`\`\` js
 
   var foo = function (bar) {
-    return bar++;
+
+  return bar++;
+
   };
 
 
@@ -164,34 +179,39 @@ content: >-
   ## Tables
 
 
-  | Option | Description |
+  | Option |
+  Description                                                               |
 
-  | ------ | ----------- |
+  | ------ |
+  ------------------------------------------------------------------------- |
 
   | data   | path to data files to supply the data that will be passed into
   templates. |
 
   | engine | engine to be used for processing templates. Handlebars is the
-  default. |
+  default.    |
 
-  | ext    | extension to be used for dest files. |
+  | ext    | extension to be used for dest
+  files.                                      |
 
 
   Right aligned columns
 
 
-  | Option | Description |
+  | Option
+  |                                                               Description |
 
-  | ------:| -----------:|
+  | -----: |
+  ------------------------------------------------------------------------: |
 
-  | data   | path to data files to supply the data that will be passed into
+  |   data | path to data files to supply the data that will be passed into
   templates. |
 
-  | engine | engine to be used for processing templates. Handlebars is the
+  | engine |    engine to be used for processing templates. Handlebars is the
   default. |
 
-  | ext    | extension to be used for dest files. |
-
+  |    ext |                                      extension to be used for dest
+  files. |
 
 
   ## Links
@@ -203,8 +223,7 @@ content: >-
   [link with title](http://nodeca.github.io/pica/demo/ "title text!")
 
 
-  Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
+  Autoconverted link <https://github.com/nodeca/pica> (enable linkify to see)
 
 
   ## Images
@@ -219,14 +238,10 @@ content: >-
   Like links, Images also have a footnote style syntax
 
 
-  ![Alt text][id]
+  ![1.00](https://octodex.github.com/images/dojocat.jpg "The Dojocat")
 
 
   With a reference later in the document defining the URL location:
-
-
-  [id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-
 
 
   ## Plugins
@@ -235,7 +250,6 @@ content: >-
   The killer feature of \`markdown-it\` is very effective support of
 
   [syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
-
 
 
   ### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
@@ -253,15 +267,13 @@ content: >-
   twemoji.
 
 
-
   ### [Subscript](https://github.com/markdown-it/markdown-it-sub) /
   [Superscript](https://github.com/markdown-it/markdown-it-sup)
 
 
-  - 19^th^
+  * 19^th^
 
-  - H~2~O
-
+  * H~~2~~O
 
 
   ### [\\<ins>](https://github.com/markdown-it/markdown-it-ins)
@@ -270,12 +282,10 @@ content: >-
   ++Inserted text++
 
 
-
   ### [\\<mark>](https://github.com/markdown-it/markdown-it-mark)
 
 
-  ==Marked text==
-
+  \==Marked text==
 
 
   ### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
@@ -287,7 +297,7 @@ content: >-
   Footnote 2 link[^second].
 
 
-  Inline footnote^[Text of inline footnote] definition.
+  Inline footnote^\[Text of inline footnote] definition.
 
 
   Duplicated footnote reference[^second].
@@ -298,7 +308,6 @@ content: >-
       and multiple paragraphs.
 
   [^second]: Footnote text.
-
 
 
   ### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
@@ -317,19 +326,28 @@ content: >-
 
   :   Definition 2
 
-          { some code, part of Definition 2 }
 
-      Third paragraph of definition 2.
+  ```
+      { some code, part of Definition 2 }
+
+  Third paragraph of definition 2.
+
+  ```
+
 
   _Compact style:_
 
 
   Term 1
-    ~ Definition 1
+
+  \~ Definition 1
+
 
   Term 2
-    ~ Definition 2a
-    ~ Definition 2b
+
+  \~ Definition 2a
+
+  \~ Definition 2b
 
 
   ### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
@@ -342,7 +360,7 @@ content: >-
   on.
 
 
-  *[HTML]: Hyper Text Markup Language
+  \*\[HTML]: Hyper Text Markup Language
 
 
   ### [Custom containers](https://github.com/markdown-it/markdown-it-container)
