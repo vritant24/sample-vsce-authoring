@@ -1,3 +1,5 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Owls
+editors:
+  - web-dev-stub/unit1/lesson2/lessonpart1/newFile.txt
