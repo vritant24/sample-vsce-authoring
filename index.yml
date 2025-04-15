@@ -32,3 +32,4 @@ contacts:
     homePageUrl: None
 units:
   - unit1/index.yml
+  - unit2/index.yml
