@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Books
-content: >+
+content: >
   ## Books
 
 
@@ -10,4 +10,3 @@ content: >+
   range of topics, from programming languages and frameworks to software design
   principles and best practices. Reading books can provide in-depth insights and
   help reinforce concepts learned through practical experience.
-
