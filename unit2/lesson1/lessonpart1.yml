@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart1
+title: Page
+showEditor: true
+editors:
+  - web-dev-stub/unit2/lesson1/lessonpart1/main.py
