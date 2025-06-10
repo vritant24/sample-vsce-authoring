@@ -30,6 +30,31 @@ contacts:
     affiliation: None
     email: None
     homePageUrl: None
+files:
+  - path: web-dev-stub/unit2/lesson1/lessonpart1/main.py
+    content: "from random import randint\r
+
+      \r
+
+      def generate_random_number():\r
+
+      \    \"\"\"Generate a random number between 1 and 100.\"\"\"\r
+
+      \    return randint(1, 100)\r
+
+      \r
+
+      def main():\r
+
+      \    \"\"\"Main function to run the random number generator.\"\"\"\r
+
+      \    random_number = generate_random_number()\r
+
+      \    print(f\"The generated random number is: {random_number}\")\r
+
+      \r
+
+      \    "
 units:
   - unit1/index.yml
   - unit2/index.yml
